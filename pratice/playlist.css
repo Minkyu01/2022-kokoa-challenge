@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Playfair+Display:wght@500;600;700&family=Roboto+Slab:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  border: 7px solid #00c6ac;
+  padding-left: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+header i {
+  position: absolute;
+  font-size: 32px;
+  left: 0px;
+}
+
+header h3 {
+  position: absolute;
+  font-size: 32px;
+  right: 170px;
+}
+
+.main_title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.img_box {
+  width: 150px;
+  height: 150px;
+  background-color: #ffbc12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 3px solid black;
+  margin-right: 20px;
+}
+
+.img_box i {
+  color: white;
+  font-size: 100px;
+}
+
+.text_box {
+  width: 60%;
+}
+
+.text_box h3 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.text_box h4 {
+  opacity: 0.7;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.buttons div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 10px;
+  border-width: 2px 2px 5px 2px;
+}
+
+.buttons div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 50%;
+  border-width: 2px 2px 5px 2px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.buttons div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 50%;
+  border-width: 2px 2px 5px 2px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+.row_box {
+  display: flex;
+  align-items: center;
+}
+
+.color_box {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  border: 3px solid black;
+  margin-right: 15px;
+  background-color: tomato;
+}
+
+.row_box {
+  margin-bottom: 50px;
+}
+
+.color_name {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.color_ex {
+  font-size: 15px;
+  opacity: 0.6;
+  margin: 0px;
+}
+
+.row_box:nth-child(2) .color_box {
+  background-color: #fe89bc;
+}
+.row_box:nth-child(3) .color_box {
+  background-color: #1947e4;
+}
+.row_box:nth-child(4) .color_box {
+  background-color: #00c6ae;
+}

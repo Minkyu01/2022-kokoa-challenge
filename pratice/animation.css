@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Playfair+Display:wght@500;600;700&family=Roboto+Slab:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: #6cbcbe;
+}
+
+@keyframes circleAni {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.circle-box {
+  display: flex;
+  height: 49vh;
+  justify-content: center;
+  align-items: center;
+  animation: circleAni 1s linear infinite;
+}
+
+.spuare-box {
+  height: 49vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 25px;
+}
+
+@keyframes boxScale {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50%,
+  100% {
+    transform: none;
+  }
+}
+
+.square {
+  width: 20px;
+  height: 100px;
+  background-color: white;
+  margin-right: 5px;
+  animation: boxScale 1s ease-in-out infinite;
+}
+
+.square:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.square:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.square:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.square:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.square:nth-child(5) {
+  animation-delay: 0.5s;
+}

@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "components/screen_header.css";
+
+body {
+  background-image: url("../images/bgImg.png");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
